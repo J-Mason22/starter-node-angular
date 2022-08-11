@@ -45,7 +45,7 @@ function transferProjectToRemote(failed, successful) {
   );
 }
 
-// creates a temporary folder on the remote server
+/* creates a temporary folder on the remote server*/
 function createRemoteTempFolder() {
   return ssh.execCommand(
     'rm -rf hackathon-starter-temp && mkdir hackathon-starter-temp',
