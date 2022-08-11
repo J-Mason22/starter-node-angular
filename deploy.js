@@ -104,7 +104,7 @@ function sshConnect() {
       // TODO: ADD YOUR IP ADDRESS BELOW (e.g. '12.34.5.67')
       host: '3.93.237.27',
       username: 'ubuntu',
-      privateKey: 'starter-node-angular.pem',
+      privateKey: 'Starter-node-angular.pem',
     })
     .then(function () {
       console.log('SSH Connection established.');
